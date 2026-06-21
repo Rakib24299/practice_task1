@@ -2,42 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
      <script src="https://cdn.tailwindcss.com"></script>
     <title>page 2</title>
 
 </head>
-<body> 
+<body class=" bg-[#F5F1EA]"> 
     <div class=" bg-[#F5F1EA] text-center border-b border-gray-300 h-[32px] w-fill">
-        <p1 class="">Free shipping on orders over ₹3,000 · Made in Jaipu</p1>
+        <p1>Free shipping on orders over ₹3,000 · Made in Jaipu</p1>
     </div>
-    <header class=" bg-[#F5F1EA] w-[1,546px]  items-center border-b border-gray-300 h-[64px] px-16 py-3">
-        
-        <nav class="w-fill flex  items-center">
+   <header class="bg-[#F5F1EA] border-b border-gray-300 px-4 md:px-16 py-4">
 
-                <ul class="flex gap-8 text-md font-semibold">
-                    <li>Shop</li>
-                    <li>about</li>
-                    <li>contact</li>
-                    <li>search</li>
-            
-                </ul>
+    <nav class="grid grid-cols-3 items-center">
 
-                 <h1 class="font-serif italic  tracking-tight text-4xl  text-[#141414] mx-auto" > HEHERVA</h1>
-            
-            
-             <ul class="flex gap-8 text-md pl-40 font-semibold">
-                    <li>wiselist</li>
-                    <li>carte</li>
-                </ul>
-        </nav>
-            
-    </header>
+        <ul class="flex gap-4 md:gap-8 text-[13px] font-semibold">
+            <li>Shop</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Search</li>
+        </ul>
+
+        <h1 class="text-center font-serif italic text-[24px]  tracking-tight">
+            MEHERVA
+        </h1>
+
+        <ul class="flex justify-end gap-4 md:gap-8 text-sm font-semibold">
+            <li>Wishlist</li>
+            <li>Cart</li>
+        </ul>
+
+    </nav>
+</header>
 <!-- Picture  section -->
     <div class="bg-[#F5F1EA]"> 
-        <div class=" h-[224px] w-fill[1,546px] flow-vertical border-b-2 border-gray-300  flex items-center px-16">
-            <h1 class="font-serif italic text-[100px] h- tracking-tight">
+        <div class="h-[224px] w-full border-b border-gray-300 flex items-center px-4 md:px-16">
+            <h1 class="font-serif italic text-[100px]  tracking-tight">
                  Atelier<sub>1</sub>
             </h1>
         </div>
@@ -47,26 +46,41 @@
         </div>
     </div>
 <!-- text section -->
-<div class="  bg-[#F5F1EA] h-[976px] w-full py-20  pt-[128px] pr-[389px] pb-[1px] pl-[389px]">
-       
-     <div class="h-[91.19PX]  flex-col p-2 ">
-              <h1 class="font-normal text-[11px]"> OUR STORY</h1>
-              <h2 class="text-4xl mt-4 h-[42px] font-semibold">A small studio on Galta Marg</h2>
-        </div>
-        
-             <div class=" justify p-2 border-b-2 border-gray-300">
-                 <p class="mb-6 text-[#141414] leading-8 text-[15px]">Meherva began in 2019 as a quiet experiment. Our founder, Priya Mehra, wanted to create clothing that honored traditional Indian textile practices while serving contemporary wardrobes — pieces that could go from an afternoon in the atelier to a wedding reception without apology.<br><br>We work closely with artisan communities in Jaipur, Bombay, and Bangalore. Each piece is made to order, dyed using natural materials sourced from local farms, and finished by hand. The process is slow — deliberately so.<br><br>Our collections are seasonal but timeless. We produce in small batches, never more than what we can oversee personally. This approach means we often sell out, but it also means we can maintain the quality and ethics that define our work.</p>              
-            </div>
-            <br>
-            <div class=" h-[250px] flex-col p-2 border-b-2 border-gray-300">
-                  <p class="flex-col text-[30px] mx-auto justify font-serif italic  text-[#141414]">
-                  "The best garments are those that improve with time — that carry stories in their fabric. We make slowly,     because slowness is the only honest pace."<br> <span class=" flex justify justify-center text-[13px]">— Priya Mehra, Founder</span>
-              </p>
-            </div>
-        </div>
- </div>
+<div class="bg-[#F5F1EA] max-w-4xl mx-auto px-4 md:px-8 py-24">
 
-<section class="py-24 bg-[#F5F1EA]">
+    <div class="mb-10">
+        <h1 class="text-[11px] uppercase tracking-wider">
+            Our Story
+        </h1>
+
+        <h2 class="text-3xl md:text-4xl mt-4 font-semibold">
+            A small studio on Galta Marg
+        </h2>
+    </div>
+
+    <div class="border-b border-gray-300 pb-10">
+        <p class="text-[15px] leading-8 text-[#141414]">
+            Meherva began in 2019 as a quiet experiment. Our founder, Priya Mehra, wanted to create clothing that honored traditional Indian textile practices while serving contemporary wardrobes — pieces that could go from an afternoon in the atelier to a wedding reception without apology.
+            <br><br>
+            We work closely with artisan communities in Jaipur, Bombay, and Bangalore. Each piece is made to order, dyed using natural materials sourced from local farms, and finished by hand. The process is slow — deliberately so
+            <br><br>
+            Our collections are seasonal but timeless. We produce in small batches, never more than what we can oversee personally. This approach means we often sell out, but it also means we can maintain the quality and ethics that define our work.
+        </p>
+    </div>
+
+    <div class=" flex-col  py-16 border-b  border-gray-300">
+        <p class="text-[24px] md:text-[30px] justify font-serif  italic  text-[#141414]">
+            "The best garments are those that improve with time — that carry stories in their fabric. We make slowly, because slowness is the only honest pace."
+        </p>
+
+        <p class="text-center text-[13px] mt-6">
+            — Priya Mehra, Founder
+        </p>
+    </div>
+
+</div>
+
+<section class="py-16 bg-[#F5F1EA]">
 
     <h2 class="text-[64px] text-[#141414] italic font-serif px-10 mb-16">
         Our practices
@@ -113,8 +127,83 @@
     </div>
 
 </section>
+   
+<!-- Team Section -->
+<section class="py-16">
 
-         <h1>Hu</h1> 
+    <h2 class="text-[64px] italic font-serif px-10 mb-16">
+        Our team<sub class="text-lg font-serif italic">4</sub>
+    </h2>
+
+    <div class="grid grid-cols-4">
+<!-- pic 2 -->
+        <div>
+            <img
+                src="/picture/pic 2.png" class="h-[450px] w-full object-cover">
+
+            <div class="p-5 border">
+                <h3 class="font-medium">
+                    Priya Mehra
+                </h3>
+                <p class="text-sm text-gray-500">
+                    Founder & Creative Director
+                </p>
+            </div>
+        </div>
+<!-- pic 3 -->
+        <div>
+            <img
+                src="/picture/pic 3.png" class="h-[450px] w-full object-cover">
+
+            <div class="p-5 border">
+                <h3 class="font-medium">
+                    Lakshmi Devi
+                </h3>
+                <p class="text-sm text-gray-500">
+                    Master Artisan, Jaipur
+                </p>
+            </div>
+        </div>
+        <!-- pic4 -->
+        <div>
+            <img
+                src="/picture/pic4.png" class="h-[450px] w-full object-cover">
+
+            <div class="p-5 border">
+                <h3 class="font-medium">
+                    Arjun Kumar
+                </h3>
+                <p class="text-sm text-gray-500">
+                    Textile Designer
+                </p>
+            </div>
+        </div>
+        <!-- pic5 -->
+        <div>
+            <img
+                src="/picture/pic5.png" class="h-[450px] w-full object-cover">
+
+            <div class="p-5 border">
+                <h3 class="font-medium">
+                    Suman Reddy
+                </h3>
+                <p class="text-sm text-gray-500">
+                    Production Manager
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>>
+
+<!-- Collection part -->
+<div class="bg-amber-200 h-">
+
+    <h1>Hu</h1> 
+</div>
+
+         
 
         
 
